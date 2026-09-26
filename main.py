@@ -1,4 +1,4 @@
-from funcoes import menu
+from menu import menu
 
 menu()
 

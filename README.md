@@ -16,11 +16,14 @@ Python 3, SQLite e a biblioteca `tabulate` pra formatar a saída no terminal.
 
 ## Estrutura
 
-Separei o projeto em 3 arquivos, cada um com uma responsabilidade:
+Separei o projeto em arquivos, cada um com uma responsabilidade:
 
 - `database.py` - conexão com o banco e criação das tabelas
-- `funcoes.py` - toda a lógica (cadastro, empréstimo, devolução, etc)
-- `main.py` - só chama o menu, ponto de entrada do programa
+- `livros.py` - cadastro e listagem de livros
+- `usuarios.py` - cadastro e listagem de usuários
+- `emprestimos.py` - registro, devolução e listagem de empréstimos
+- `menu.py` - menu do sistema e chamada das funções
+- `main.py` - chama o menu e inicia o programa
 
 ## Banco de dados
 
